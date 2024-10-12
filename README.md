@@ -26,7 +26,7 @@ npm run build
 4. 用git push 到远程仓库。
 5. 在仓库的设置页面，启动Github Pages服务。大概1分钟左右打开 https://userName.github.io 即可。
 
-### 更骚的操作
+### More
 
 你可以买自己的域名，比如常见的英文域名等。最骚的是，你可以买一个中文域名  **XXX.我爱你**。注意这是可行的。
 
