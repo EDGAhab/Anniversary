@@ -2,7 +2,7 @@
   "name": "us",
   "version": "0.1.0",
   "private": true,
-  "homepage":".",
+  "homepage": ".",
   "dependencies": {
     "animate.css": "^3.6.1",
     "animateplus": "^2.0.1",
@@ -10,6 +10,7 @@
     "jquery": "^3.3.1",
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
+    "react-router-dom": "^6.27.0",
     "react-scripts": "1.1.4"
   },
   "scripts": {
