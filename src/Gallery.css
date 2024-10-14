@@ -10,20 +10,21 @@
 
 .gallery {
     display: flex;
-    animation: scroll-left 60s linear infinite;
+    animation: scroll-left 360s linear infinite;
     transform: translateX(50%);
 }
 
 .gallery-item {
     flex: 0 0 auto;
-    width: 500px;
+    width: 400px; /* Consistent size for all images */
     margin: 0 20px;
     text-align: center;
 }
 
 .gallery-photo {
     width: 100%;
-    height: auto;
+    height: 300px; /* Fixed height for consistent sizing */
+    object-fit: cover; /* Ensures the image fills the set width and height */
     border-radius: 12px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
