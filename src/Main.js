@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
-import url from './audio/gbqq.mp3';
-import testphoto from './photos/test.jpg';
+// import url from './audio/gbqq.mp3';
+// import testphoto from './photos/test.jpg';
 import { Link } from 'react-router-dom';
 
 class Main extends Component {
