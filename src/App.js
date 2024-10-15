@@ -25,7 +25,7 @@ class App extends Component {
         <div>
           <div className={"envelope animated " + this.state.class}>
             <div className="triangle-down"></div>
-            <img className="heart" src={iconurl} onClick={() => {
+            <img className="heart" src={iconurl} alt="heart icon" onClick={() => {
               this.setState({ class: 'bounceOutRight', show: true });
             }} />
             <div className="triangle-up"></div>
