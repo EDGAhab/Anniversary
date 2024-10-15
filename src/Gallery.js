@@ -119,7 +119,7 @@ const Gallery = () => {
                 {photos.map((photo, index) => (
                     <div className="gallery-item" key={index}>
                         <p className="gallery-subtitle">{photo.date}</p>
-                        <img src={photo.src} alt={`Photo ${index + 1}`} className="gallery-photo" />
+                        <img src={photo.src} alt={`Event on ${photo.date}`} className="gallery-photo" />
                         <p className="gallery-subtitle">{photo.subtitle}</p>
                     </div>
                 ))}
