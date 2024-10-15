@@ -103,7 +103,7 @@ const photos = [
     { src: photo45, subtitle: '可爱捏', date: 'Day 304' },
     { src: photo46, subtitle: '又回家了', date: 'Day 304' },
     { src: photo47, subtitle: '真好看', date: 'Day 304' },
-    { src: photo48, subtitle: '比饭店好吃的肥肉饭', date: 'Day 319' },
+    { src: photo48, subtitle: '比饭店好吃的肥牛饭', date: 'Day 319' },
     { src: photo49, subtitle: 'Omasake*2', date: 'Day 322' },
     { src: photo50, subtitle: '内小伙笑什么呢', date: 'Day 326' },
     { src: photo51, subtitle: '影', date: 'Day 338' },

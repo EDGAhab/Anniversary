@@ -16,7 +16,16 @@ class App extends Component {
   componentDidMount() {
     this.audio = new Audio(url);
     this.audio.loop = true;
-    this.audio.play();
+
+    // Adding event listener to play audio on first click
+    const playAudio = () => {
+      this.audio.play().catch((error) => {
+        console.log('Playback prevented:', error);
+      });
+      window.removeEventListener('click', playAudio);
+    };
+
+    window.addEventListener('click', playAudio, { once: true });
   }
 
   render() {
